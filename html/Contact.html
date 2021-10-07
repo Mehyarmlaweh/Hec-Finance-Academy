@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HEC Finance Academy</title>
+
+    <link rel="icon" href="/ressources/Logo HEC FA.png" />
+    <link rel="stylesheet" href="/cssbootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="/css/ContactStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="/ressources/background-pagecontact.png  "
+        class="image-bg"
+        width="2000px"
+      />
+      <div class="icon-bar">
+        <a
+          href="https://www.facebook.com/HEC.Finance.Academy"
+          class="facebook"
+          target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a
+          href="mailto:hec.financeacademy@gmail.com?subject = Feedback&body = Message"
+          target="_blank"
+          class="google"
+          ><i class="fa fa-google"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/hec-finance-academy-36a171134/"
+          target="_blank"
+          class="linkedin"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCx8SOUKtIZ4lFEj8c_X56LQ"
+          target="_blank"
+          class="youtube"
+          ><i class="fa fa-youtube"></i
+        ></a>
+      </div>
+
+      <nav class="navbar fixed-top navbar-light bg-light">
+        <ul class="elementsinnav">
+          <li class="navelement">
+            <a href="/html/àpropos.html">À propos du HEC FA</a>
+          </li>
+          <li class="navelement">
+            <a href="/html/communité.html"> Communité</a>
+          </li>
+          <li class="navelement">
+            <a href="/html/index.html"
+              ><img src="/ressources/navbar.png" width="70" height="65"
+            /></a>
+          </li>
+          <li class="navelement">
+            <a href="/html/actualité.html">Actualités</a>
+          </li>
+          <li class="navelement"><a href="#">Contact </a></li>
+        </ul>
+      </nav>
+      <div class="banner-text">
+        <i
+          ><h2><a href="#">N'HESITEZ PAS A NOUS CONTACTER</a></h2></i
+        >
+      </div>
+    </header>
+    <main>
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center"></div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters mb-5">
+                  <div class="col-md-7">
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Nous Contacter</h3>
+                      <div id="form-message-warning" class="mb-4"></div>
+                      <div id="form-message-success" class="mb-4">
+                        Votre Message a été envoyé, Merci!
+                      </div>
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="label" for="name"
+                                >Nom et Prénom
+                              </label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="label" for="email"
+                                >adresse e-mail</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label class="label" for="subject">Sujet</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label class="label" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn-1 btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex align-items-stretch">
+                    <div id="map">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.1797342438094!2d10.336039615838569!3d36.86211647191042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2b5d7c64798d5%3A0xb26905422a3f9e!2sIHEC%20Carthage!5e0!3m2!1sfr!2stn!4v1632777102437!5m2!1sfr!2stn"
+                        width="600"
+                        height="590"
+                        style="border: 5px"
+                        allowfullscreen=""
+                        loading="lazy"
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="dbox w-100 text-center">
+                      <div
+                        class="
+                          icon
+                          d-flex
+                          align-items-center
+                          justify-content-center
+                        "
+                      >
+                        <span class="fa fa-map-marker"></span>
+                      </div>
+                      <div class="text">
+                        <p>
+                          <span>Addresse:</span><br />Rue Victor Hugo, Carthage
+                          Présidence Carthage, Tunisie
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="dbox w-100 text-center">
+                      <div
+                        class="
+                          icon
+                          d-flex
+                          align-items-center
+                          justify-content-center
+                        "
+                      >
+                        <span class="fa fa-phone"></span>
+                      </div>
+                      <div class="text">
+                        <p>
+                          <span>Téléphone:</span>
+                          <a href="tel://+216 53 171 828">+216 53 171 828 </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="dbox w-100 text-center">
+                      <div
+                        class="
+                          icon
+                          d-flex
+                          align-items-center
+                          justify-content-center
+                        "
+                      >
+                        <span class="fa fa-paper-plane"></span>
+                      </div>
+                      <div class="text">
+                        <p>
+                          <span>Email:</span>
+                          <a href="mailto:hec.financeacademy@gmail.com"
+                            >hec.financeacademy@gmail.com</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="dbox w-100 text-center">
+                      <div
+                        class="
+                          icon
+                          d-flex
+                          align-items-center
+                          justify-content-center
+                        "
+                      >
+                        <span class="fa fa-globe"></span>
+                      </div>
+                      <div class="text">
+                        <p>
+                          <span>Website</span>
+                          <a href="/html/index.html">HecFa.com</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
